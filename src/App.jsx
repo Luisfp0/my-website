@@ -1,9 +1,11 @@
-import './generic/reset.css'
+import './generic-style/reset.css'
+import './generic-style/global.css'
+import ContentPage from './components/ContentPage/ContentPage'
 
 function App() {
   return (
     <>
-      <p>O começo do site ^^</p>
+      <ContentPage/>
     </>
   )
 }
