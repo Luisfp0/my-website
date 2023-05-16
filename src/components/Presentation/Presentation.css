@@ -1,4 +1,7 @@
 .container-presentation {
+  background-color: red;
+  height: 70px;
+  width: 400px;
   position: absolute;
   top: 20%;
 }
