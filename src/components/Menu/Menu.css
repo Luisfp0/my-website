@@ -14,6 +14,10 @@
   font-weight: 400;
 }
 
+.container-menu a:hover {
+  color: #2ccb69;
+}
+
 .container-menu:first-child {
   margin-left: 100px;
 }

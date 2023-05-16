@@ -1,0 +1,19 @@
+.btn-contact {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-color: #2ccb69;
+    background-image: url('../../assets/images/icon-contact-close.svg');
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-contact-open {
+  background-position-y: -45px;
+}
