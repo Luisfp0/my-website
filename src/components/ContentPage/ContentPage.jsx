@@ -4,9 +4,11 @@ import Header from '../Header/Header'
 import Presentation from '../Presentation/Presentation'
 import Contact from '../Contact/Contact'
 import ContactInfo from '../ContactInfo/ContactInfo'
+import MyImage from '../MyImage/MyImage.jsx'
 
 function ContentPage() {
   const [contactIsOpen, setContactIsOpen] = useState(false)
+  
   function changeIcon() {
     setContactIsOpen(!contactIsOpen)
   } 
@@ -15,6 +17,7 @@ function ContentPage() {
       <Header/>
       <section className="content-page">
         <Presentation />
+        <MyImage/>
         <ContactInfo contactIsOpen={contactIsOpen} />
         <Contact
         contactIsOpen={contactIsOpen} 

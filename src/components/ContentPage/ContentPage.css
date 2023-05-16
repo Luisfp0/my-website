@@ -1,12 +1,12 @@
 .page-wrapper {
-  background-color: #1c1c1c;
+  background-color: #000;
   width: 100%;
   height: 100%;
   display: table;
 }
 
 .content-page {
-  background-color: #3b3737;
+  background-color: #1c1c1c;
   margin: 12px;
   height: calc(100vh - 20px);
 }
