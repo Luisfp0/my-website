@@ -5,10 +5,14 @@
   bottom: 115px;
   right: 67px;
   z-index: 200;
-  display: block;
+  display: none;
   color: white;
   background-color: black;
   border-radius: 0 10px 0 10px;
+}
+
+.container-active {
+  display: block;
 }
 
 .container-contact-info h2 {

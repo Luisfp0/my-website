@@ -4,9 +4,13 @@ import logoTwitter from '../../assets/images/icon-twitter.svg'
 import logoDribbble from '../../assets/images/icon-dribbble.svg'
 import logoWhatsapp from  '../../assets/images/icon-whatsapp.svg'
 
-function ContactInfo() {
+function ContactInfo(props) {
+
+  const contactOpen = props.contactIsOpen === false
+  ? 'container-contact-info'
+  : 'container-contact-info container-active'
   return (
-    <div className='container-contact-info'>
+    <div className={contactOpen}>
         <h2 className='title-contact' >Contato</h2>
         <p>luisfernandodepaulosousa0020@gmail.com</p>
         <p>+55 62 9 9322 2660</p>
