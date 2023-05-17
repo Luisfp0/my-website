@@ -1,5 +1,5 @@
 import Logo from "../Logo/Logo"
-import Menu from '../Menu/menu'
+import Menu from '../Menu/Menu'
 
 function Header() {
   return (

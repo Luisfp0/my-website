@@ -1,0 +1,19 @@
+.Stick {
+  width: 20px;
+  height: 1px;
+  display: block;
+  margin: 0 0 55px 35px;
+  background-color: #4d4c4c;
+}
+
+.Stick:first-child {
+  margin-top: 15px;
+}
+
+.active {
+  width: 50px;
+  height: 1px;
+  display: block;
+  margin: 0 0 55px 35px;
+  background-color: green;
+}  

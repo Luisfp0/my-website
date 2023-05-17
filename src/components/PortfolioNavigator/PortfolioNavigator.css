@@ -39,22 +39,6 @@
   color: #bcbcbc;
 }
 
-.stick-navigator {
-  width: 100%;
-}
-
-.stick-navigator a {
-  width: 20px;
-  height: 1px;
-  display: block;
-  margin: 0 0 50px 30px;
-  background-color: #4d4c4c;
-}
-
-.stick-navigator a:first-child {
-  margin-top: 15px;
-}
-
 .arrow:first-child {
   transform: rotate(180deg);
 }
