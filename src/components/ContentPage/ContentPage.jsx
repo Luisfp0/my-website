@@ -5,17 +5,19 @@ import Presentation from '../Presentation/Presentation'
 import Contact from '../Contact/Contact'
 import ContactInfo from '../ContactInfo/ContactInfo'
 import MyImage from '../MyImage/MyImage.jsx'
+import PortfolioNavigator from '../PortfolioNavigator/PortfolioNavigator'
 
 function ContentPage() {
-  const [contactIsOpen, setContactIsOpen] = useState(false)
+const [contactIsOpen, setContactIsOpen] = useState(false)
   
-  function changeIcon() {
-    setContactIsOpen(!contactIsOpen)
-  } 
+function changeIcon() {
+  setContactIsOpen(!contactIsOpen)
+} 
+
   return (
     <div className='page-wrapper'>
       <Header/>
-      <section className="content-page">
+      <section className="content-page-one">
         <Presentation />
         <MyImage/>
         <ContactInfo contactIsOpen={contactIsOpen} />
@@ -23,6 +25,9 @@ function ContentPage() {
         contactIsOpen={contactIsOpen} 
         setContactIsOpen={setContactIsOpen} 
         changeIcon={changeIcon} />
+      </section>
+      <section className='content-page-two'>
+        <PortfolioNavigator/>
       </section>
     </div>
   )

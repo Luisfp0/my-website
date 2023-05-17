@@ -1,17 +1,39 @@
+@media screen and (min-width: 320px){
 .container-picture {
+  width: 300px;
+  background-color: #2ccb69;
+  position: absolute;
+  right: 500px;
+  top: 400px;
+  border-radius: 10px 20px;
+}
+    
+.container-picture img {
+  width: 97%;
+  position: relative;
+  right: 6px;
+  bottom: 5px;
+  border-radius: 15px;
+  border: 3px solid black;
+  }
+}
+
+@media screen and (min-width: 992px) {
+.container-picture {
+  width: 300px;
   background-color: #2ccb69;
   position: absolute;
   right: 100px;
   top: 180px;
   border-radius: 10px 20px;
 }
-  
+
 .container-picture img {
-  width: 300px;
+  width: 97%;
   position: relative;
   right: 6px;
   bottom: 5px;
   border-radius: 15px;
   border: 3px solid black;
 }
-
+}

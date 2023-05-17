@@ -1,0 +1,66 @@
+.portfolio-navigator {
+  width: 145px;
+  height: 400px;
+  display: table;
+  position: absolute;
+  left: 15px;
+  top: 800px;
+  background-color: #1c1c1c;
+  margin-left: 5px;
+}
+
+.portfolio-navigator:before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 80px;
+  background-color: #1d1c1c;
+  position: absolute;
+  top: 2px;
+  left: -6px;
+}
+
+.portfolio-navigator span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: 600;
+  color: #2ccb69;
+}
+
+.next-prev {
+  width: 80%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  border-radius: 23px;
+  color: #bcbcbc;
+}
+
+.stick-navigator {
+  width: 100%;
+}
+
+.stick-navigator a {
+  width: 20px;
+  height: 1px;
+  display: block;
+  margin: 0 0 50px 30px;
+  background-color: #4d4c4c;
+}
+
+.stick-navigator a:first-child {
+  margin-top: 15px;
+}
+
+.arrow:first-child {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  width: 20px;
+  margin: 0 7px 0 7px;
+  cursor: pointer;
+}

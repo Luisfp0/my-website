@@ -3,9 +3,9 @@ import './MyImage.css'
 
 function MyImage() {
   return (
-  <div className='container-picture'>
-      <img src={picture}/>
-  </div>
+    <div className='container-picture'>
+      <img src={picture} alt='foto-perfil'/>
+    </div>
   )
 }
 

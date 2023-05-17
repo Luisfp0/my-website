@@ -1,3 +1,4 @@
+@media screen and (min-width: 320px){
 .container-presentation {
   height: 150px;
   width: 400px;
@@ -14,4 +15,5 @@
 
 .presentation-text {
   color: rgb(215, 215, 215);
+}
 }

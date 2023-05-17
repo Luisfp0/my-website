@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-
+@media screen and (min-width: 320px){
 .container-logo {
-  position: absolute;
+  position: fixed;
   top: -10px;
   left: 20px;
   width: 65px;
@@ -17,4 +17,5 @@
   margin-top: 40px;
   font-family: 'Josefin Sans', cursive;
   font-size: 15px;
+}
 }
