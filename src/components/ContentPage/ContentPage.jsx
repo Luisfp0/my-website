@@ -4,13 +4,10 @@ import SectionTwo from '../SectionTwo/SectionTwo'
 
 function ContentPage() {
   return (
-    <>
     <div className='page-wrapper'>
-      <SectionOne></SectionOne>
-      <SectionTwo></SectionTwo>
+      <SectionOne/>
+      <SectionTwo/>
     </div>
-    </>
-
   )
 }
 

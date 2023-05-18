@@ -3,6 +3,7 @@
   display: flex;
   position: fixed;
   align-items: center;
+  z-index: 1;
 }
 
 .container-menu a {

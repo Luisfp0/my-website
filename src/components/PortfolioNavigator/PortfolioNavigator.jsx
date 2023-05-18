@@ -23,12 +23,15 @@ function PortfolioNavigator() {
 
   return (
     <div className="portfolio-navigator">
-      <span>{displayProject}</span>
-      <StickNavigator />
-      <div className='next-prev'>
-        <img className='arrow' onClick={remove} src={arrow}></img>
-        <p>{displayProject + '/05'}</p>
-        <img className='arrow' onClick={add} src={arrow}></img>
+      <div className='align-vertical'>
+        <span>{displayProject}</span>
+        <span className='block-number'></span>
+        <StickNavigator active={currentProject}/>
+        <div className='next-prev'>
+          <img className='arrow' onClick={remove} src={arrow}></img>
+          <p>{displayProject + '/05'}</p>
+          <img className='arrow' onClick={add} src={arrow}></img>
+      </div>
       </div>
     </div>
   )

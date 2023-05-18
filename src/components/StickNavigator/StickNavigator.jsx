@@ -1,13 +1,24 @@
 import './StickNavigator.css'
 
-function StickNavigator() { 
+function StickNavigator(props) { 
+  const sticks = [
+    {id:1},
+    {id:2},
+    {id:3},
+    {id:4},
+    {id:5},
+  ]
   return ( 
     <nav>
-      <a href='#' className='stick'></a>
-      <a href='#' className='stick'></a>
-      <a href='#' className='stick'></a>
-      <a href='#' className='stick'></a>
-      <a href='#' className='stick'></a>
+      {
+        sticks.map((stick) => {
+          const currentClass = props.active === stick.id ? 'stick stick-active' : 'stick'
+          return <a 
+            href={stick.id} 
+            className={currentClass}>
+          </a> 
+        })
+      }
     </nav>
   )
 }

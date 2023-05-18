@@ -1,16 +1,19 @@
 .portfolio-navigator {
   width: 145px;
-  height: 400px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #1c1c1c;
   margin-left: 5px;
+}
+
+.align-vertical {
   position: relative;
   top: 50%;
   transform: translateY(-50%); 
 }
 
-.portfolio-navigator:before {
+.block-number {
   content: "";
   display: block;
   width: 35px;
@@ -18,7 +21,7 @@
   background-color: #1d1c1c;
   position: absolute;
   top: 2px;
-  left: -6px;
+  left: -5px;
 }
 
 .portfolio-navigator span {
