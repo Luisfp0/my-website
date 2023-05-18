@@ -1,0 +1,5 @@
+.section-one {
+  background-color: #1c1c1c;
+  margin: 12px 12px 0 12px;
+  height: calc(100vh - 20px);
+}

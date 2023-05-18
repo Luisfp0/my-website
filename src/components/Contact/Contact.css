@@ -1,4 +1,3 @@
-@media screen and (min-width: 320px){
 .btn-contact {
   width: 45px;
   height: 45px;
@@ -16,5 +15,4 @@
 
 .btn-contact-open {
   background-position-y: -45px;
-}
 }

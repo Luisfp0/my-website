@@ -1,12 +1,13 @@
 .portfolio-navigator {
   width: 145px;
   height: 400px;
-  display: table;
-  position: absolute;
-  left: 15px;
-  top: 800px;
+  display: flex;
+  flex-direction: column;
   background-color: #1c1c1c;
   margin-left: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
 }
 
 .portfolio-navigator:before {

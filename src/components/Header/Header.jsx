@@ -1,14 +1,14 @@
+import './Header.css'
 import Logo from "../Logo/Logo"
 import Menu from '../Menu/Menu'
 
+
 function Header() {
   return (
-    <>
-    <div className="container-header">
+    <header className="container-header">
       <Menu/>
       <Logo/>
-    </div>
-    </>
+    </header>
   )
 }
 

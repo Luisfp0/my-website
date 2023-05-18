@@ -1,18 +1,14 @@
 import './StickNavigator.css'
 
-function StickNavigator(props) { 
-  let active = 'Stick'
-    if(props.currentProject === props.stickProject1) {
-      active = 'Stick active'
-    }
+function StickNavigator() { 
   return ( 
-    <>
-      <a href='#' active={props.stickProject1} className={active}></a>
-      <a href='#' active={props.stickProject2} className={active}></a>
-      <a href='#' active={props.stickProject3} className={active}></a>
-      <a href='#' active={props.stickProject4} className={active}></a>
-      <a href='#' active={props.stickProject5} className={active}></a>
-    </>
+    <nav>
+      <a href='#' className='stick'></a>
+      <a href='#' className='stick'></a>
+      <a href='#' className='stick'></a>
+      <a href='#' className='stick'></a>
+      <a href='#' className='stick'></a>
+    </nav>
   )
 }
 

@@ -11,7 +11,7 @@ function ContactInfo(props) {
   : 'container-contact-info container-active'
   return (
     <div className={contactOpen}>
-        <h2 className='title-contact' >Contato</h2>
+        <h2 className='title-contact' >Contact</h2>
         <p>luisfernandodepaulosousa0020@gmail.com</p>
         <p>+55 62 9 9322 2660</p>
         <div className="social-links">

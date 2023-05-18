@@ -1,5 +1,4 @@
 import './Contact.css'
-import { useState } from 'react'
 
 function Contact(props) {
   const toggleImage = props.contactIsOpen === false

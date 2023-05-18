@@ -1,16 +1,16 @@
-@media screen and (min-width: 320px){
 .container-menu {
+  height: 95px;
   display: flex;
   position: fixed;
+  align-items: center;
 }
 
 .container-menu a {
   font-family: 'Open Sans';
-  position: relative;
   font-size: 16px;
   color: #bcbcbc;
   text-transform: lowercase;
-  margin: 45px 0 0 15px;
+  margin: 0 0 0 15px;
   text-decoration: none;
   font-weight: 400;
 }
@@ -21,5 +21,4 @@
 
 .container-menu:first-child {
   margin-left: 100px;
-}
 }
