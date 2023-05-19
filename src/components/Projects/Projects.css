@@ -1,17 +1,13 @@
 .slider-container {
-  background-color: white;
-  display: flex;
   overflow: hidden;
+  margin: auto;
 }
 
-.slider-list {
+.slider {
   width: 500px;
-  height: 700px;
-  background-color: deeppink;
-  list-style: none;
+  display: flex;
 }
 
-.jl-slider-item {
-  height: 180px;
-  float: left;
+.slider img {
+  width: 500px;
 }

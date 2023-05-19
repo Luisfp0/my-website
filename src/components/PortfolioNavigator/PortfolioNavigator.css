@@ -13,17 +13,6 @@
   transform: translateY(-50%); 
 }
 
-.block-number {
-  content: "";
-  display: block;
-  width: 35px;
-  height: 80px;
-  background-color: #1d1c1c;
-  position: absolute;
-  top: 2px;
-  left: -5px;
-}
-
 .portfolio-navigator span {
   font-family: 'Open Sans', sans-serif;
   font-size: 100px;
