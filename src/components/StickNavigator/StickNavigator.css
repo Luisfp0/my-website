@@ -2,6 +2,7 @@
   width: 20px;
   height: 1px;
   display: block;
+  position: relative;
   margin: 0 0 55px 35px;
   background-color: #4d4c4c;
 }
@@ -11,7 +12,26 @@
 }
 
 .stick-active {
-  width: 50px;
-  height: 2px;
+  animation-name: stick-anim;
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
   background-color: #2ccb69;
+  width: 80px;
+  height: 2px;
+}
+
+
+@keyframes stick-anim {
+  0% {
+    width: 20px;
+  }
+
+  50% {
+    width: 100px;
+  }
+
+  100%{
+    width: 80px;
+    height: 2px;
+  }
 }

@@ -22,7 +22,7 @@ function Projects(props) {
       <div className="slider">
       {imageProjects.map((project) => {
         if(project.id === props.currentProject) {
-        return <img src={project.src}/>
+        return <img src={project.src} className='active'/>
         }
       })}
       </div>
