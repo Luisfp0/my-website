@@ -1,19 +1,29 @@
-@media screen and (min-width: 320px){
+@keyframes apears {
+  from {
+    opacity: 0;
+  } 
+  to {
+    opacity: 1;
+  }
+}
+
 .container-contact-info {
+  display: none;
+}
+
+.container-active {
+  animation-name: apears;
+  animation-duration: 0.7s;
   width: 248px;
   height: 130px;
   position: fixed;
   bottom: 115px;
   right: 67px;
   z-index: 200;
-  display: none;
+  display: block;
   color: white;
   background-color: black;
   border-radius: 0 10px 0 10px;
-}
-
-.container-active {
-  display: block;
 }
 
 .container-contact-info h2 {
@@ -64,6 +74,6 @@
   background-color: black;
   border-radius: 0 0 0 100%;
 }
-}
+
 
 

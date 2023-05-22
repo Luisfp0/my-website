@@ -15,19 +15,34 @@
   border-radius: 5px;
 }
 
-.title-project {
+.container-info {
+  animation-name: reveling;
+  animation-duration: 0.5s;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 300px;
+  height: auto;
+  left: 3%;
+  top: 75%;
+  background-color: #ffff2040;
   z-index: 1;
+  border-radius: 5px;
 }
 
-.info{
-  padding-left: 10px;
-  position: absolute;
-  top: 15px;
-  height: 32px;
+.title-project {
+  animation-name: reveling;
+  animation-duration: 0.5s;
+  position: relative;
+  text-align: center;
   z-index: 1;
+  padding-top: 5px;
+}
+
+.info {
+  animation-name: reveling;
+  animation-duration: 0.5s;
+  position: relative;
+  z-index: 1;
+  padding: 5px 5px 5px 5px;
 }
 
 .active {

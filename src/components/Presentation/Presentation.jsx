@@ -2,14 +2,15 @@ import './Presentation.css'
 import MyImage from '../MyImage/MyImage'
 
 function Presentation() {
+  const coder = '<coder>'
   return (
       <div className='container-presentation'>
         <div className='d-flex'>  
           <div className='ola'>
-            <p>Front-end Developer</p>
+            <p>{coder}</p>
           </div>
           <div className='presentation-text'>
-            <p>Me chamo <span className='name'>Luís</span>, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor placeat modi, et laboriosam, facilis dolores minima vel atque totam iste perspiciatis numquam ducimus officia? Doloribus, recusandae dolore! Iure, fugit possimus?</p>
+            <p>I am a <span className='name'>Front End Developer</span> who focuses on wrighting clean, elegant and efficient code.</p>
           </div>
         </div>
         <MyImage/>

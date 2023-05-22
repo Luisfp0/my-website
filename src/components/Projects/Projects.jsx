@@ -2,8 +2,6 @@ import './Projects.css'
 import imageOne from '../../assets/images/to-do-list-project.png'
 import imageTwo from '../../assets/images/matching-game-project.png'
 import imageThree from '../../assets/images/mario-game-project.png'
-import imageFour from '../../assets/images/image-4.jpg'
-import imageFive from '../../assets/images/image-5.jpg'
 
 function Projects(props) {
   const imageProjects = [ 
@@ -32,9 +30,11 @@ function Projects(props) {
       <div className="slider">
       {imageProjects.map((project) => {
         if(project.id === props.currentProject) {
-        return <div className='container-project'>
-          <h1 className='title-project'>{project.title}</h1>
-          <p className='info'>{project.info}</p>
+        return <div>
+          <div className='container-info'>
+            <h1 className='title-project'>{project.title}</h1>
+            <p className='info'>{project.info}</p>
+          </div>
           <img src={project.src} className='active'/>
         </div>
         }
