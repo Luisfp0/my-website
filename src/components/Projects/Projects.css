@@ -3,13 +3,16 @@
 }
 
 .slider {
+  display: flex;
+  justify-content: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%); 
 }
 
 .slider img {
-  width: 100%;
+  width: 1130px;
+  border-radius: 5px;
 }
 
 .title-project {
@@ -20,6 +23,7 @@
 }
 
 .info{
+  padding-left: 10px;
   position: absolute;
   top: 15px;
   height: 32px;

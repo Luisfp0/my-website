@@ -1,7 +1,7 @@
 import './Projects.css'
 import imageOne from '../../assets/images/to-do-list-project.png'
 import imageTwo from '../../assets/images/matching-game-project.png'
-import imageThree from '../../assets/images/image-3.jpg'
+import imageThree from '../../assets/images/mario-game-project.png'
 import imageFour from '../../assets/images/image-4.jpg'
 import imageFive from '../../assets/images/image-5.jpg'
 
@@ -13,11 +13,11 @@ function Projects(props) {
     title: 'To-do List'},
     {id: 2,
     src: imageTwo,
-    info:'info projeto 2 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum repudiandae atque obcaecati corrupti non.',
-    title: 'Title project2'},
+    info:'Um jogo da memória feito em html, css e javascript, mas que também tem uma versão feita utilizando react.',
+    title: 'Matching Game'},
     {id: 3,
-    src: imageOne,
-    info:'info projeto 3 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum repudiandae atque obcaecati corrupti non.',
+    src: imageThree,
+    info:'info projeto 3 - Lorem iasdasdpsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum repudiandae atque obcaecati corrupti non.',
     title: 'Title project3'},
     {id: 4,
     src: imageOne,

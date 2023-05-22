@@ -6,10 +6,10 @@ function Presentation() {
       <div className='container-presentation'>
         <div className='d-flex'>  
           <div className='ola'>
-            <p>Olá!</p>
+            <p>Front-end Developer</p>
           </div>
           <div className='presentation-text'>
-            <p>Meu nome é Luís Fernando, sou um desenvolvedor front-end. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum repudiandae atque obcaecati corrupti non.</p>
+            <p>Me chamo <span className='name'>Luís</span>, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor placeat modi, et laboriosam, facilis dolores minima vel atque totam iste perspiciatis numquam ducimus officia? Doloribus, recusandae dolore! Iure, fugit possimus?</p>
           </div>
         </div>
         <MyImage/>

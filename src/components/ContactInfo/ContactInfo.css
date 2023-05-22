@@ -52,6 +52,10 @@
   margin: 13px auto 0;
 }
 
+.social > img:hover {
+  width: 25px;
+}
+
 .corner {
   width: 25px;
   height: 25px;
