@@ -11,6 +11,7 @@
   transition: all 0.2s ease-out;
   border: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 .btn-contact-open {

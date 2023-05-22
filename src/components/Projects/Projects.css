@@ -1,15 +1,29 @@
 .slider-container {
-  overflow: hidden;
-  margin: auto;
+  width: 100%;
 }
 
 .slider {
-  width: 500px;
-  display: flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
 }
 
 .slider img {
-  width: 500px;
+  width: 100%;
+}
+
+.title-project {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.info{
+  position: absolute;
+  top: 15px;
+  height: 32px;
+  z-index: 1;
 }
 
 .active {
