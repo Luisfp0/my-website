@@ -16,6 +16,7 @@
 }
 
 .container-info {
+  color: #bcbcbc;
   animation-name: reveling;
   animation-duration: 0.5s;
   position: absolute;
@@ -23,16 +24,17 @@
   height: auto;
   left: 3%;
   top: 75%;
-  background-color: #ffff2040;
+  background-color: #00000056;
   z-index: 1;
   border-radius: 5px;
+  text-align: center;
 }
 
 .title-project {
+  color: #2ccb69;
   animation-name: reveling;
   animation-duration: 0.5s;
   position: relative;
-  text-align: center;
   z-index: 1;
   padding-top: 5px;
 }
@@ -49,6 +51,27 @@
   animation-name: reveling;
   animation-duration: 1s;
   opacity: 1;
+}
+
+.btn-more {
+  animation-name: reveling;
+  animation-duration: 0.5s;
+  color: #bcbcbc;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-more a {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+.btn-more:hover {
+  background-color: #2ccb691d;
+  border: 1px solid #2ccb6921;
+
 }
 
 @keyframes reveling {
