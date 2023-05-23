@@ -7,25 +7,39 @@
   transform: translateY(-50%); 
 }
 
-.d-flex {
+.container-text {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  margin-left: 50px;
 }
 
-.ola {
-  display: flex;
-  flex-direction: column;
-  color:#2ccb69;
-  font-size: 60px;
-  padding-bottom: 20px;
+.ola h1 {
+  color: #2ccb69;
+  font-size: 65px;
+}
+
+.ola p {
+  color: #2ccb69;
+  font-size: 50px;
 }
 
 .presentation-text {
   width: 500px;
+  font-size: 15px;
   color: rgb(215, 215, 215);
+  padding-top: 5px;
 }
 
 .name {
   color: #2ccb69 ;
+}
+
+.typing {
+  font-size: 40px;
+  color: white;
+}
+
+.typed-cursor {
+  color: #2ccb69;
+  font-size: 50px;
 }

@@ -55,15 +55,19 @@
   display: inline-block;
 }
 
-.social > img {
+.image-display {
   width: 20px;
   height: auto;
   display: block;
   margin: 13px auto 0;
 }
 
-.social > img:hover {
-  width: 25px;
+svg.image-display:hover path {
+  fill: #2ccb69;
+}
+
+.image-display:hover {
+  width: 22px;
 }
 
 .corner {

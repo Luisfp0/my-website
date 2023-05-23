@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 .container-logo {
-  position: fixed;
-  top: -10px;
-  left: 26px;
-  width: 65px;
-  height: 110px;
-  background-color: #2ccb69;
-  border-radius: 0 0 30px 0;
-  z-index: 1;
-  padding: 6px;
 }
 
-.name-logo {
-  background-color: #2ccb69 ;
-  text-align: center;
-  margin-top: 40px;
-  font-family: 'Josefin Sans', cursive;
-  font-size: 15px;
+.logo {
+  color: white;
+}
+
+.text-green {
+  color: #2ccb69;
 }
