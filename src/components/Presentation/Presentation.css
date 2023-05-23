@@ -14,13 +14,8 @@
 }
 
 .ola h1 {
-  color: #2ccb69;
-  font-size: 65px;
-}
-
-.ola p {
-  color: #2ccb69;
-  font-size: 50px;
+  font-size: 3.7rem;
+  color: rgb(255, 255, 255);
 }
 
 .presentation-text {
@@ -35,8 +30,9 @@
 }
 
 .typing {
-  font-size: 40px;
-  color: #bcbcbc;
+  color: white;
+  font-size: 2rem;
+  text-shadow: rgb(0, 173, 111) 0px 0px 10px;
 }
 
 .typed-cursor {

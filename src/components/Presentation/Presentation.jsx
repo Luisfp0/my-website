@@ -33,7 +33,7 @@ function Presentation() {
             <span className='typing' ref={ref}/>
           </div>
           <div className='presentation-text'>
-            <p>I am a <span className='name'>Front End Developer</span> who focuses on wrighting clean, elegant and efficient code.</p>
+            <p>I am a <span className='name'>Front End Developer</span> who focuses on writhing clean, elegant and efficient code.</p>
           </div>
         </div>
         <MyImage/>
