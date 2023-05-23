@@ -4,7 +4,7 @@ import useTyped from '../hooks/useTyped';
 import { useRef } from 'react';
 
 
-const COLOR = "#5be9a8";
+const COLOR = "#2ccb69";
 
 const options = {
   strings: [
