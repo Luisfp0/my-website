@@ -3,6 +3,7 @@
   width: 400px;
   align-items: center;
   justify-content: center;
+  animation: flutuation 5s ease-in-out alternate infinite;
 }
 
 .svg-react {
@@ -12,4 +13,14 @@
 
 .svg-js {
   position: absolute;
+}
+
+
+@keyframes flutuation {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
