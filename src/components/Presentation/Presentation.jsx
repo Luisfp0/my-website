@@ -8,16 +8,11 @@ const COLOR = "#2ccb69";
 
 const options = {
   strings: [
-    `I code cool <span style='color: ${COLOR}'>web apps</span>`,
-    `I develop <span style='color: ${COLOR}'>mobile apps</span>`,
-    `I code <span style='color: ${COLOR}'>smartcontracts</span>`,
-    `I develop <span style='color: ${COLOR}'>dapps</span>`,
-    `I code scalable <span style='color: ${COLOR}'>backends</span>`,
-    `I love <span style='color: ${COLOR}'>javascript</span>`,
-    `I love <span style='color: ${COLOR}'>web3</span>`,
-    `I love <span style='color: ${COLOR}'>blockchain</span>`,
+    `I code cool <span style='color: ${COLOR}; text-shadow: rgba(0, 173, 109, 0.393) 10px 0px 10px;'>web apps</span>`,
+    `I love <span style='color: ${COLOR}; text-shadow: rgba(0, 173, 109, 0.393) 10px 0px 10px;'>javascript</span>`,
+    `I love <span style='color: ${COLOR}; text-shadow: rgba(0, 173, 109, 0.393) 10px 0px 10px;'>web3</span>`,
   ],
-  typeSpeed: 30,
+  typeSpeed: 50,
   backSpeed: 30,
   loop: true,
 };

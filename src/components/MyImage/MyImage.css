@@ -27,12 +27,24 @@
   position: absolute;
 }
 
+.js {
+  width: 50px;
+  position: absolute;
+  animation: identifier 10s linear infinite;
+  animation-delay: 2s;
+}
+
+.css {
+  width: 60px;
+  position: absolute;
+  animation: identifier2 10s linear infinite;
+}
 
 @keyframes flutuation {
-  0% {
+  from {
     transform: translateY(-15px);
   }
-  100% {
+  to {
     transform: translateY(15px);
   }
 }
