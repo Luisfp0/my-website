@@ -1,3 +1,80 @@
+@media only screen and (max-width: 600px) {
+  .container-logo {
+    display: flex;
+    position: fixed;
+    height: 95px;
+    align-items: center;
+  }
+  
+  .logo {
+    left: 16px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .text-green {
+    color: #2ccb69;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container-logo {
+    display: flex;
+    position: fixed;
+    height: 95px;
+    align-items: center;
+  }
+  
+  .logo {
+    left: 16px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .text-green {
+    color: #2ccb69;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-logo {
+    display: flex;
+    position: fixed;
+    height: 95px;
+    align-items: center;
+  }
+  
+  .logo {
+    left: 16px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .text-green {
+    color: #2ccb69;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-logo {
+    display: flex;
+    position: fixed;
+    height: 95px;
+    align-items: center;
+  }
+  
+  .logo {
+    left: 16px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .text-green {
+    color: #2ccb69;
+  }
+}
+
+@media only screen and (min-width: 1200px) { 
 .container-logo {
   display: flex;
   position: fixed;
@@ -13,4 +90,5 @@
 
 .text-green {
   color: #2ccb69;
+}
 }

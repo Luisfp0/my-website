@@ -1,3 +1,59 @@
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .stick {
+    width: 20px;
+    height: 1px;
+    display: block;
+    position: relative;
+    margin: 0 0 60px 35px;
+    background-color: #4d4c4c;
+  }
+  
+  .stick:first-child {
+    margin-top: 20px;
+  }
+  
+  .stick-active {
+    animation-name: stick-anim;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+    background-color: #2ccb69;
+    width: 60px;
+    height: 2px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .stick {
+    width: 20px;
+    height: 1px;
+    display: block;
+    position: relative;
+    margin: 0 0 60px 35px;
+    background-color: #4d4c4c;
+  }
+  
+  .stick:first-child {
+    margin-top: 20px;
+  }
+  
+  .stick-active {
+    animation-name: stick-anim;
+    animation-duration: 500ms;
+    animation-timing-function: ease-out;
+    background-color: #2ccb69;
+    width: 60px;
+    height: 2px;
+  }
+}
+
+@media only screen and (min-width: 1200px) { 
 .stick {
   width: 20px;
   height: 1px;
@@ -19,7 +75,7 @@
   width: 60px;
   height: 2px;
 }
-
+}
 
 @keyframes stick-anim {
   0% {
