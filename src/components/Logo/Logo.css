@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-
 .container-logo {
   display: flex;
+  position: fixed;
+  height: 95px;
   align-items: center;
-  justify-content: center;
 }
 
 .logo {
-  position: fixed;
   left: 16px;
   color: white;
   font-size: 30px;

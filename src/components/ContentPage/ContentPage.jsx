@@ -4,9 +4,11 @@ import SectionTwo from '../SectionTwo/SectionTwo'
 
 function ContentPage() {
   return (
-    <div className='page-wrapper'>
-      <SectionOne/>
-      <SectionTwo/>
+    <div className='container'>
+      <div className='page-wrapper'>
+        <SectionOne/>
+        <SectionTwo/>
+      </div>
     </div>
   )
 }

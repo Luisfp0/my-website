@@ -6,8 +6,8 @@ import Menu from '../Menu/Menu'
 function Header() {
   return (
     <header className="container-header">
-      <Menu/>
       <Logo/>
+      <Menu/>
     </header>
   )
 }

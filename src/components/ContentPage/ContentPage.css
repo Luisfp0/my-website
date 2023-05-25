@@ -1,6 +1,12 @@
 .page-wrapper {
-  background-color: #000;
-  width: 100%;
+  max-width: 1080px;
+  padding: 11px;
   height: 100%;
   display: table;
+}
+
+.container {
+  display: flex;
+  place-content: center;
+  background-color: #1c1c1c;
 }

@@ -1,7 +1,7 @@
 .container-presentation {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   top: 40%;
   transform: translateY(-50%); 

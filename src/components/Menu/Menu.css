@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   height: 95px;
-  margin-left: 210px;
   position: fixed;
   z-index: 1;
 }
@@ -22,7 +21,7 @@
 }
 
 .container-menu  a:first-child {
-  margin-left: 0;
+  margin-left: 200px;
 }
 
 .container-menu  a:hover {

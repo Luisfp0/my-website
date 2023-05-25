@@ -1,12 +1,11 @@
 .btn-contact {
   width: 45px;
   height: 45px;
-  display: block;
   background-color: #2ccb69;
   background-image: url('../../assets/images/icon-contact-close.svg');
   position: fixed;
-  bottom: 45px;
-  right: 45px;
+  bottom: 25px;
+  right: 30px;
   border-radius: 50%;
   transition: all 0.2s ease-out;
   border: none;

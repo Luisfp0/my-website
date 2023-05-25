@@ -9,12 +9,12 @@
 .slider {
   display: flex;
   position: relative;
-  height: 580px;
-  width: 85%;
+  height: 530px;
+  width: 90%;
   background-color: #000;
   align-items: center;
   border-radius: 15px;
-  border: 2px solid #2ccb694f;
+  border: 2px solid #1c1c1cb0;
 }
 
 .slider img {
@@ -62,7 +62,7 @@
   text-align: center;
   position: absolute;
   z-index: 1;
-  top: 75%;
+  top: 70%;
 }
 
 .title-project {
