@@ -1,34 +1,4 @@
-@media only screen and (max-width: 600px) {
-  .section-two {
-    height: calc(100vh - 10px);
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .section-two {
-    height: calc(100vh - 10px);
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .section-two {
-    height: calc(100vh - 10px);
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .section-two {
-    height: calc(100vh - 10px);
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 1200px) { 
 .section-two {
   height: calc(100vh - 10px);
   display: flex;
-}
 }

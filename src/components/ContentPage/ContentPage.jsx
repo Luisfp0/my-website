@@ -1,5 +1,6 @@
 import './ContentPage.css'
 import SectionOne from '../SectionOne/SectionOne'
+import SectionThree from '../SectionThree/SectionThree'
 import SectionTwo from '../SectionTwo/SectionTwo'
 
 function ContentPage() {
@@ -8,6 +9,7 @@ function ContentPage() {
       <div className='page-wrapper'>
         <SectionOne/>
         <SectionTwo/>
+        <SectionThree/>
       </div>
     </div>
   )

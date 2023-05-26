@@ -4,6 +4,7 @@ function Menu() {
   return (
     <nav className='container-menu'>
       <a href='#'>Home</a>
+      <a href='#'>About me</a>
       <a href='#'>Projects</a>
     </nav>
   )
