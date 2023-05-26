@@ -1,4 +1,44 @@
 .section-two {
   height: calc(100vh - 10px);
   display: flex;
+  align-items: center;
+}
+
+.wrap-about {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.container-object {
+  height: auto;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.container-about h1 {
+  font-size: 35px;
+  color: #2ccb69;
+}
+
+.span-object.green-text {
+  color: #2ccb69;
+}
+
+.span-object {
+  display: block;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }

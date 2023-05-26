@@ -129,14 +129,6 @@
     width: 80px;
   }
   }
-  @keyframes flutuation {
-    from {
-      transform: translateY(-15px);
-    }
-    to {
-      transform: translateY(15px);
-    }
-}
 
 @media only screen and (min-width: 1200px) { 
 .container-picture {
