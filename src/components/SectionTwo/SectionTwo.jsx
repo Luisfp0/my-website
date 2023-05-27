@@ -5,7 +5,7 @@ function SectionTwo() {
     human: `let human? = {`,
     name: `name: 'Luís Fernando',`,
     age:`age: 21,`,
-    height: `188,`,
+    height: `height: 188,`,
     coder: `class: 'coder',`,
     subclass: `subclass: 'jedi',`,
     skills: `skills: 'html, css, js, react'`,
@@ -23,12 +23,14 @@ function SectionTwo() {
             <span className='grade'>5</span>
             <span className='grade'>6</span>
             <span className='grade'>7</span>
+            <span className='grade'>8</span>
           </div>
           {arrayMe.map((info) =>{return <div>
             <div> 
               <span className='span-object'>{info.human}</span>
               <span className='span-object'>{info.name}</span>
               <span className='span-object'>{info.age}</span>
+              <span className='span-object'>{info.height}</span>
               <span className='span-object'>{info.coder}</span>
               <span className='span-object'>{info.subclass}</span>
               <span className='span-object'>{info.skills}</span>
