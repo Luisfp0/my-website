@@ -11,7 +11,7 @@ function PortfolioNavigator(props) {
         <StickNavigator active={props.currentProject}/>
         <div className='next-prev'>
           <img className='arrow' onClick={props.remove} src={arrow}></img>
-          <p>{props.displayProject + '/05'}</p>
+          <p>{props.displayProject + '/04'}</p>
           <img className='arrow' onClick={props.add} src={arrow}></img>
         </div>
       </div>

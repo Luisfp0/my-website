@@ -2,6 +2,7 @@ import './Projects.css'
 import imageOne from '../../assets/images/to-do-list-project.png'
 import imageTwo from '../../assets/images/matching-game-project.png'
 import imageThree from '../../assets/images/mario-game-project.png'
+import imageFour from '../../assets/images/svg/coming.jpg'
 
 function Projects(props) {
   const imageProjects = [ 
@@ -21,13 +22,9 @@ function Projects(props) {
     title: 'Mario Game',
     link: 'https://mario-game-html-css-js.vercel.app'},
     {id: 4,
-    src: imageOne,
-    info:'info projeto 4 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum.',
-    title: 'Title project4'},
-    {id: 5,
-    src: imageOne,
-    info:'info projeto 5 - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae porro fuga hic impedit aperiam ratione quidem praesentium doloremque nisi, sint officiis quibusdam provident eum.',
-    title: 'Title project5'}]
+    src:imageFour,
+    link: 'https://github.com/Luisfp0'
+  }]
   return (
     <div className='slider-container'>
       <div className="slider">

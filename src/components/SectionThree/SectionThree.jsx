@@ -10,7 +10,7 @@ function SectionThree(props) {
 
 
   function add() {
-    if(currentProject === 5) {
+    if(currentProject === 4) {
       return
     }
     setCurrentProject(currentProject + 1)
