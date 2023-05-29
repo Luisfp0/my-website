@@ -40,7 +40,9 @@ function SectionTwo() {
         </div>
         <div className='container-about'>
           <h1>About me</h1>
-          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias eveniet enim quo in expedita non doloribus facilis, esse fugit maxime harum sequi, impedit accusantium molestias eaque recusandae culpa assumenda. </span>
+          <p> Hi ! I am a software enginner based on Brazil.</p>
+          <p> I started programming a little over 6 months ago and never imagined I would fall in love so fast with an area, which with time is proving to be more and more amazing.</p>
+          <p> Currently I'm studying (ADS) and focused on Front-end development, but I don't plan to stop here, my goal is to expand my knowledge as much as possible.</p>
         </div>
       </div>
     </section>

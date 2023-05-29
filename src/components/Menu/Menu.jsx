@@ -3,9 +3,9 @@ import './Menu.css'
 function Menu() {
   return (
     <nav className='container-menu'>
-      <a href='#'>Home</a>
-      <a href='#'>About me</a>
-      <a href='#'>Projects</a>
+      <a href='#home'>Home</a>
+      <a href='#aboutMe'>About me</a>
+      <a href='#projects'>Projects</a>
     </nav>
   )
 }
