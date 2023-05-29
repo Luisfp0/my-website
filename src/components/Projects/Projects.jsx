@@ -34,14 +34,14 @@ function Projects(props) {
       {imageProjects.map((project) => {
         if(project.id === props.currentProject) {
         return <div>
+          <img src={project.src} className='active'/> 
           <div className='container-info'>
             <h1 className='title-project'>{project.title}</h1>
             <p className='info'>{project.info}</p>
             <button className='btn-more'>
-              <a href={project.link}>More</a>
+              <a target="_blank" href={project.link}>More</a>
             </button>
           </div>
-            <img src={project.src} className='active'/> 
         </div>
         }
       })}

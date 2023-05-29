@@ -1,7 +1,6 @@
 import './Menu.css'
 
 function Menu(props) {
-  console.log('asdasdsa',props)
   return (
     <nav className='container-menu'>
       <a onClick={() => props.scrollHome.current.scrollIntoView({behavior: 'smooth'})} href='#home'>Home</a>
