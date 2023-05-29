@@ -71,6 +71,38 @@
     border-radius: 0 0 0 100%;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
   }
+
+  .whatsapp-container {
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+  }
+
+  .whatsapp-container  p {
+    padding-left: 5px;
+  }
+
+  .corner {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+  
+  svg.image-zap:hover path{
+    fill: #2ccb69;
+  }
+
+  svg.image-zap:hover {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -145,6 +177,38 @@
     background-color: black;
     border-radius: 0 0 0 100%;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+
+  .whatsapp-container {
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+  }
+
+  .whatsapp-container  p {
+    padding-left: 5px;
+  }
+
+  .corner {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+  
+  svg.image-zap:hover path{
+    fill: #2ccb69;
+  }
+
+  svg.image-zap:hover {
+    width: 22px;
+    height: 22px;
   }
 }
 
@@ -221,6 +285,38 @@
     border-radius: 0 0 0 100%;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
   }
+
+  .whatsapp-container {
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+  }
+
+  .whatsapp-container  p {
+    padding-left: 5px;
+  }
+
+  .corner {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+  
+  svg.image-zap:hover path{
+    fill: #2ccb69;
+  }
+
+  svg.image-zap:hover {
+    width: 22px;
+    height: 22px;
+  }
 }
 @media only screen and (min-width: 992px) { 
   .container-contact-info {
@@ -295,6 +391,38 @@
     border-radius: 0 0 0 100%;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
   }
+
+  .whatsapp-container {
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+  }
+
+  .whatsapp-container  p {
+    padding-left: 5px;
+  }
+
+  .corner {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+  
+  svg.image-zap:hover path{
+    fill: #2ccb69;
+  }
+
+  svg.image-zap:hover {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media only screen and (min-width: 1200px) { 
@@ -361,25 +489,6 @@
     width: 22px;
   }
 
-  svg.image-zap:hover {
-    width: 22px;
-    height: 22px;
-  }
-
-  svg.image-zap:hover path{
-    fill: #2ccb69;
-  }
-
-  .corner {
-    width: 30px;
-    height: 30px;
-    display: block;
-    float: right;
-    background-color: black;
-    border-radius: 0 0 0 100%;
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-  }
-
   .whatsapp-container {
     text-decoration: none;
     width: 150px;
@@ -391,6 +500,25 @@
 
   .whatsapp-container  p {
     padding-left: 5px;
+  }
+
+  .corner {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+  
+  svg.image-zap:hover path{
+    fill: #2ccb69;
+  }
+
+  svg.image-zap:hover {
+    width: 22px;
+    height: 22px;
   }
 }
 
