@@ -2,7 +2,7 @@ import './SectionTwo.css'
 
 function SectionTwo(props) {
   const arrayMe = [{
-    human: `let human? = {`,
+    human: `let ?human? = {`,
     name: `name: 'Luís Fernando',`,
     age:`age: 21,`,
     height: `height: 188,`,
