@@ -4,7 +4,7 @@ import PortfolioNavigator from "../PortfolioNavigator/PortfolioNavigator"
 import Projects from '../Projects/Projects'
 
 
-function SectionThree() {
+function SectionThree(props) {
   const[currentProject, setCurrentProject] = useState(1)
   const displayProject = '0' + currentProject
 
@@ -24,7 +24,7 @@ function SectionThree() {
   }
 
   return (
-    <section className="section-three">
+    <section ref={props.scrollProjects} className="section-three">
       <PortfolioNavigator 
       displayProject={displayProject}
       add={add}

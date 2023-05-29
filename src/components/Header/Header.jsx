@@ -3,11 +3,11 @@ import Logo from "../Logo/Logo"
 import Menu from '../Menu/Menu'
 
 
-function Header() {
+function Header(props) {
   return (
     <header className="container-header">
       <Logo/>
-      <Menu/>
+      <Menu scrollProjects={props.scrollProjects}  scrollHome={props.scrollHome} scrollAbout={props.scrollAbout}/>
     </header>
   )
 }

@@ -6,15 +6,15 @@ import Presentation from "../Presentation/Presentation"
 import { useState } from "react"
 
 
-function SectionOne() {
+function SectionOne(props) {
   const [contactIsOpen, setContactIsOpen] = useState(false)
   
   function changeIcon() {
     setContactIsOpen(!contactIsOpen)
   } 
   return (
-    <section className="section-one">
-      <Header/>
+    <section ref={props.scrollHome} className="section-one">
+      <Header scrollProjects={props.scrollProjects} scrollHome={props.scrollHome} scrollAbout={props.scrollAbout}/>
       <Presentation/>
       <Contact 
         contactIsOpen={contactIsOpen} 

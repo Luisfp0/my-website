@@ -1,6 +1,6 @@
 import './SectionTwo.css'
 
-function SectionTwo() {
+function SectionTwo(props) {
   const arrayMe = [{
     human: `let human? = {`,
     name: `name: 'Luís Fernando',`,
@@ -12,7 +12,7 @@ function SectionTwo() {
     fechamento: `};`
   }]
   return (
-    <section className="section-two">
+    <section ref={props.scrollAbout} className="section-two">
       <div className='wrap-about'>
         <div className='container-object'>
           <div className='grade-container'>
