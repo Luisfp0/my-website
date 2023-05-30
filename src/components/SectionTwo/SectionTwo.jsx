@@ -2,7 +2,7 @@ import './SectionTwo.css'
 
 function SectionTwo(props) {
   const arrayMe = [{
-    human: `let ?human? = {`,
+    human: `let human = {`,
     name: `name: 'Luís Fernando',`,
     age:`age: 21,`,
     height: `height: 188,`,
@@ -28,12 +28,12 @@ function SectionTwo(props) {
           {arrayMe.map((info) =>{return <div>
             <div> 
               <span className='span-object'>{info.human}</span>
-              <span className='span-object'>{info.name}</span>
-              <span className='span-object'>{info.age}</span>
-              <span className='span-object'>{info.height}</span>
-              <span className='span-object'>{info.coder}</span>
-              <span className='span-object'>{info.subclass}</span>
-              <span className='span-object'>{info.skills}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.name}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.age}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.height}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.coder}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.subclass}</span>
+              <span className='span-object'>&nbsp;&nbsp;{info.skills}&nbsp;</span>
               <span className='span-object'>{info.fechamento}</span>
             </div>
           </div>})}
