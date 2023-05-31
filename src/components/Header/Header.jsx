@@ -5,7 +5,7 @@ import Menu from '../Menu/Menu'
 
 function Header(props) {
   return (
-    <header className="container-header">
+    <header className='header'>
       <Logo/>
       <Menu scrollProjects={props.scrollProjects}  scrollHome={props.scrollHome} scrollAbout={props.scrollAbout}/>
     </header>

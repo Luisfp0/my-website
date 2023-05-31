@@ -4,6 +4,7 @@
   }
   
   .container-active {
+    z-index: 5;
     animation-name: apears;
     animation-duration: 0.7s;
     width: 248px;
@@ -11,7 +12,6 @@
     position: fixed;
     bottom: 115px;
     right: 67px;
-    z-index: 200;
     display: block;
     color: white;
     background-color: black;
@@ -111,6 +111,7 @@
   }
   
   .container-active {
+    z-index: 5;
     animation-name: apears;
     animation-duration: 0.7s;
     width: 248px;
@@ -118,7 +119,6 @@
     position: fixed;
     bottom: 115px;
     right: 67px;
-    z-index: 200;
     display: block;
     color: white;
     background-color: black;
@@ -218,6 +218,7 @@
   }
   
   .container-active {
+    z-index: 5;
     animation-name: apears;
     animation-duration: 0.7s;
     width: 248px;
@@ -225,7 +226,6 @@
     position: fixed;
     bottom: 115px;
     right: 67px;
-    z-index: 200;
     display: block;
     color: white;
     background-color: black;
@@ -324,6 +324,7 @@
   }
   
   .container-active {
+    z-index: 5;
     animation-name: apears;
     animation-duration: 0.7s;
     width: 248px;
@@ -331,7 +332,6 @@
     position: fixed;
     bottom: 115px;
     right: 67px;
-    z-index: 200;
     display: block;
     color: white;
     background-color: black;
@@ -431,6 +431,7 @@
   }
   
   .container-active {
+    z-index: 5;
     animation-name: apears;
     animation-duration: 0.7s;
     width: 248px;
@@ -438,7 +439,6 @@
     position: fixed;
     bottom: 115px;
     right: 67px;
-    z-index: 200;
     display: block;
     color: white;
     background-color: black;

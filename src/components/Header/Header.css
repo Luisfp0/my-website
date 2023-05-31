@@ -1,47 +1,52 @@
-@media only screen and (max-width: 600px) {
-  .container-header {
-    display: flex;
-    width: 100%;
-    height: 45px;
-  }
-}
 
-@media only screen and (min-width: 768px) {
-  .container-header {
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: #1c1c1c;
+    position: fixed;
     display: flex;
     width: 100%;
-    height: 95px;
+    height: 75px;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  .container-header {
+  .header {
+    background-color: #1c1c1c;
+    position: fixed;
     display: flex;
     width: 100%;
-    height: 95px;
+    height: 75px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .container-header {
+  .header {
+    background-color: #1c1c1c;
+    position: fixed;
     display: flex;
     width: 100%;
-    height: 95px;
+    height: 75px;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .container-header {
+  .header {
+    background-color: #1c1c1c;
+    position: fixed;
     display: flex;
     width: 100%;
-    height: 95px;
+    height: 75px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
-  .container-header {
-    display: flex;
-    width: 100%;
-    height: 95px;
-  }
+@media only screen and (min-width: 1200px) { 
+.header {
+  top: 0;
+  background-color: #1c1c1c;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
 }
