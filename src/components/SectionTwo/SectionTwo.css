@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     .section-two {
-    height: calc(100vh - 10px);
+    height: calc(80vh - 10px);
     display: flex;
     align-items: center;
   }
@@ -52,11 +52,31 @@
     color: #2ccb696c;
     font-size: 15px;
   }
+
+  .pink {
+    color: #ef51ca;
+  }
+
+  .yellow {
+    color: #d3d766;
+  }
+
+  .purple {
+    color: #ff6593;
+  }
+
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+  .human {
+    color:#7364c4;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .section-two {
-    height: calc(100vh - 10px);
+    height: calc(50vh - 10px);
     display: flex;
     align-items: center;
   }
@@ -107,6 +127,26 @@
   .grade {
     color: #2ccb696c;
     font-size: 15px;
+  }
+
+  .pink {
+    color: #ef51ca;
+  }
+
+  .yellow {
+    color: #d3d766;
+  }
+
+  .purple {
+    color: #ff6593;
+  }
+
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+  .human {
+    color:#7364c4;
   }
 }
 
@@ -164,6 +204,26 @@
     color: #2ccb696c;
     font-size: 15px;
   }
+
+  .pink {
+    color: #ef51ca;
+  }
+
+  .yellow {
+    color: #d3d766;
+  }
+
+  .purple {
+    color: #ff6593;
+  }
+
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+  .human {
+    color:#7364c4;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -220,13 +280,32 @@
     color: #2ccb696c;
     font-size: 15px;
   }
+
+  .pink {
+    color: #ef51ca;
+  }
+
+  .yellow {
+    color: #d3d766;
+  }
+
+  .purple {
+    color: #ff6593;
+  }
+
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+  .human {
+    color:#7364c4;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .section-two {
-    height: calc(93vh - 10px);
+    height: calc(85vh -10px);
     display: flex;
-    align-items: center;
   }
   
   .wrap-about {
@@ -246,7 +325,6 @@
     display: flex;
     flex-direction: column;
     width: 500px;
-    justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 25px;
   }
@@ -263,7 +341,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.273);
     padding-bottom: 1.3px;
   }
-  
+
   .grade-container {
     display: flex;
     flex-direction: column;
@@ -275,6 +353,26 @@
   .grade {
     color: #2ccb696c;
     font-size: 15px;
+  }
+
+  .pink {
+    color: #ef51ca;
+  }
+
+  .yellow {
+    color: #d3d766;
+  }
+
+  .purple {
+    color: #ff6593;
+  }
+
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+  .human {
+    color:#7364c4;
   }
 }
 

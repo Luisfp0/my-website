@@ -244,8 +244,7 @@
 
 .container-presentation {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: auto;
   position: relative;
   top: 50%;
   transform: translateY(-50%); 

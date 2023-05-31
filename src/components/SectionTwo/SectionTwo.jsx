@@ -2,14 +2,24 @@ import './SectionTwo.css'
 
 function SectionTwo(props) {
   const arrayMe = [{
-    human: `let human = {`,
-    name: `name: 'Luís Fernando',`,
-    age:`age: 21,`,
-    height: `height: 188,`,
-    coder: `class: 'coder',`,
-    subclass: `subclass: 'jedi',`,
-    skills: `skills: 'html, css, js, react'`,
-    fechamento: `};`
+    humanFirst: `const`,
+    humanSecond: `human`,
+    humanThird: `{`,
+    doisPontos: `:`,
+    nameFirst: `name `,
+    nameSecond:`'Luís Fernando',`,
+    ageFirst:`age`,
+    ageSecond: `21,`,
+    heightFirst: `height`,
+    heightSecond: `188,`,
+    coderFirst: `class`,
+    coderSecond: `'coder',`,
+    subclassFirst: `subclass`,
+    subclassSecond: `'jedi',`,
+    skillsFirst: `skills`,
+    skillsSecond: `'html, css, js, react'`,
+    fechamentoFirst: `}`,
+    fechamentoSecond: `;`
   }]
   return (
     <section ref={props.scrollAbout} className="section-two">
@@ -27,14 +37,14 @@ function SectionTwo(props) {
           </div>
           {arrayMe.map((info) =>{return <div>
             <div> 
-              <span className='span-object'>{info.human}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.name}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.age}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.height}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.coder}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.subclass}</span>
-              <span className='span-object'>&nbsp;&nbsp;{info.skills}&nbsp;</span>
-              <span className='span-object'>{info.fechamento}</span>
+              <span className='span-object pink'>{info.humanFirst} <span className='human'>{info.humanSecond}</span><span> =</span><span className='purple'> {info.humanThird}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.nameFirst}<span className='pink'> : </span><span className='yellow'>{info.nameSecond}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.ageFirst}<span className='pink'> : </span><span className='yellow'>{info.ageSecond}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.heightFirst}<span className='pink'> : </span><span className='yellow'>{info.heightSecond}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.coderFirst}<span className='pink'> : </span><span className='yellow'>{info.coderSecond}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.subclassFirst}<span className='pink'> : </span><span className='yellow'>{info.subclassSecond}</span></span>
+              <span className='span-object'>&nbsp;&nbsp;{info.skillsFirst}<span className='pink'> :  </span><span className='yellow'>{info.skillsSecond}&nbsp;</span></span>
+              <span className='span-object purple'>{info.fechamentoFirst}<span className='white'>{info.fechamentoSecond}</span></span>
             </div>
           </div>})}
         </div>
