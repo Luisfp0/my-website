@@ -33,8 +33,10 @@ function Presentation() {
           </div>
         </div>
     </div>
-    <div className='wrap-img'>
-      <MyImage/>
+    <div className='align-verticals'>
+      <div className='wrap-img'>
+        <MyImage/>
+      </div>
     </div>
     </>
   )
