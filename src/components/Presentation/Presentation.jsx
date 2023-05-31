@@ -21,6 +21,7 @@ function Presentation() {
   const ref = useRef(null);
   useTyped(ref, options);
   return (
+    <>
       <div className='container-presentation'>
         <div className='container-text'>  
           <div className='ola'>
@@ -31,8 +32,11 @@ function Presentation() {
             <p>I am a <span className='name'>Front End Developer</span> who focuses on writhing clean, elegant and efficient code.</p>
           </div>
         </div>
-        <MyImage/>
-      </div>
+    </div>
+    <div className='wrap-img'>
+      <MyImage/>
+    </div>
+    </>
   )
 }
 
