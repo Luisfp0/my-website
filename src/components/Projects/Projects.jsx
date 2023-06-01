@@ -38,8 +38,11 @@ function Projects(props) {
       </div>
       {imageProjects.map((project) => {
           if(project.id === props.currentProject) {
-          return <div className='teste'>
+          return <div className='container-first-project'>
               <img src={project.src} className='active'/>
+              <div className='container-second-project'>
+                <img src={project.src} className='active2'/>
+              </div>
           </div>
           }
         })}

@@ -234,8 +234,11 @@
 }
 
 .active2 {
-  width: 200px;
-  height: 200px;
+  position: relative;
+  left: 240px;
+  top: -3px;
+  width: 131px;
+  height: 272px;
   border-radius: 25px;
 }
 
@@ -261,8 +264,16 @@
   bottom: 0;
 }
 
-.teste {
+.container-first-project {
   position: absolute;
+}
+
+.container-second-project {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 }
 
