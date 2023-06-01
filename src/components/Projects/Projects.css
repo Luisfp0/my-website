@@ -216,35 +216,53 @@
 .slider-container {
   display: flex;
   width: 100%;
-  align-items: center;
-  text-align: center;
-  justify-content: center; 
-}
-
-.notebook {
-  width: 100%;
-  height: 800px;
-}
-
-.cell {
-  position: absolute;
-  right: 0;
-  z-index: 1;
 }
 
 .active {
+  position: relative;
+  left: 3px;
+  top: -12px;
   opacity: 1;
-  width: 606px;
-  height: 386px;
-  right: 291px;
-  top: 1804px;
-  position: absolute;
+  width: 470px;
+  height: 293px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.active2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.container-displays {
+  position: relative;
+  width: 100%;
+}
+
+.notebook {
+  width: 100%;
+}
+
+.cell {
+  width: 350px;
+  right: 175px;
+}
+
+.container-cell {
+  z-index: 1;
+  position: absolute;
+  top: 115px;
+  right: -35px;
+  bottom: 0;
+}
+
+.teste {
+  position: absolute;
 }
 }
 

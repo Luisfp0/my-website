@@ -30,12 +30,16 @@ function Projects(props) {
   }]
   return (
     <div className='slider-container'>
-      <img className='notebook' src={notebook}></img>
-      <img className='cell' src={cell}></img>
-        {imageProjects.map((project) => {
+      <div className='container-displays'>
+        <img className='notebook' src={notebook}/>
+        <div className='container-cell'>
+          <img className='cell' src={cell}/>
+        </div>
+      </div>
+      {imageProjects.map((project) => {
           if(project.id === props.currentProject) {
-          return <div>
-            <img src={project.src} className='active'/> 
+          return <div className='teste'>
+              <img src={project.src} className='active'/>
           </div>
           }
         })}
