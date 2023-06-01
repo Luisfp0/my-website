@@ -11,7 +11,7 @@
     height: 1px;
     display: block;
     position: relative;
-    margin: 0 0 60px 35px;
+    margin: 0 0 60px 8px;
     background-color: #4d4c4c;
   }
   
@@ -35,7 +35,7 @@
     height: 1px;
     display: block;
     position: relative;
-    margin: 0 0 60px 35px;
+    margin: 0 0 60px 8px;
     background-color: #4d4c4c;
   }
   
@@ -59,7 +59,7 @@
   height: 1px;
   display: block;
   position: relative;
-  margin: 0 0 60px 35px;
+  margin: 0 0 60px 8px;
   background-color: #4d4c4c;
 }
 

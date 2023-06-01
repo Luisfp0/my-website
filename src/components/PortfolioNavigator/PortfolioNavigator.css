@@ -21,7 +21,6 @@
     line-height: 90px;
     font-weight: 600;
     color: #2ccb69;
-    margin-left: 20px;
   }
   
   .next-prev {
@@ -33,18 +32,6 @@
     background-color: #2c2c2c;
     border-radius: 23px;
     color: #bcbcbc;
-    margin-left: 20px;
-  }
-  
-  .arrow-one{
-    transform: rotate(180deg);
-    cursor: pointer;
-    margin-right: 5px;
-  }
-  
-  .arrow-two {
-    cursor: pointer;
-    margin-left: 5px;
   }
 }
 
@@ -68,7 +55,6 @@
     line-height: 90px;
     font-weight: 600;
     color: #2ccb69;
-    margin-left: 20px;
   }
   
   .next-prev {
@@ -80,18 +66,6 @@
     background-color: #2c2c2c;
     border-radius: 23px;
     color: #bcbcbc;
-    margin-left: 20px;
-  }
-  
-  .arrow-one{
-    transform: rotate(180deg);
-    cursor: pointer;
-    margin-right: 5px;
-  }
-  
-  .arrow-two {
-    cursor: pointer;
-    margin-left: 5px;
   }
 }
 
@@ -115,7 +89,6 @@
     line-height: 90px;
     font-weight: 600;
     color: #2ccb69;
-    margin-left: 20px;
   }
   
   .next-prev {
@@ -127,28 +100,14 @@
     background-color: #2c2c2c;
     border-radius: 23px;
     color: #bcbcbc;
-    margin-left: 20px;
-  }
-  
-  .arrow-one{
-    transform: rotate(180deg);
-    cursor: pointer;
-    margin-right: 5px;
-  }
-  
-  .arrow-two {
-    cursor: pointer;
-    margin-left: 5px;
   }
 }
 
 @media only screen and (min-width: 1200px) { 
 .portfolio-navigator {
-  width: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
-  z-index: 1;
 }
 
 .align-vertical {
@@ -159,16 +118,15 @@
 
 .portfolio-navigator span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 90px;
   font-weight: 600;
   color: #2ccb69;
-  margin-left: 20px;
 }
 
 .next-prev {
   display: flex;
-  width: 80%;
+  width: 100%;
   height: 35px;
   background-color: #2c2c2c;
   border-radius: 23px;
