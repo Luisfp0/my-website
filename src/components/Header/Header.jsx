@@ -4,6 +4,7 @@ import Menu from '../Menu/Menu'
 
 
 function Header(props) {
+
   return (
     <header className='header'>
       <Logo/>

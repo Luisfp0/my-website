@@ -177,6 +177,7 @@
     justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 19px;
+    padding-left: 25px;
   }
   
   .container-about h1 {
@@ -253,6 +254,7 @@
     justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 25px;
+    padding-left: 25px;
   }
   
   .container-about h1 {
@@ -327,6 +329,7 @@
     width: 500px;
     color: rgb(255, 255, 255);
     font-size: 25px;
+    padding-left: 25px;
   }
   
   .container-about h1 {

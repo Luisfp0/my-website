@@ -36,7 +36,7 @@
 @media only screen and (min-width: 600px) {
   .container-picture {
     display: flex;
-    width: 180px;
+    width: 220px;
     align-items: center;
     justify-content: center;
     animation: flutuation 5s ease-in-out alternate infinite;
@@ -135,8 +135,6 @@
   position: relative;
   display: flex;
   width: 400px;
-  align-items: center;
-  justify-content: center;
   animation: flutuation 5s ease-in-out alternate infinite;
   filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
 }

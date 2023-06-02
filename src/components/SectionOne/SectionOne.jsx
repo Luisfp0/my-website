@@ -14,7 +14,10 @@ function SectionOne(props) {
   } 
   return (
     <section ref={props.scrollHome} className="section-one">
-      <Header scrollProjects={props.scrollProjects} scrollHome={props.scrollHome} scrollAbout={props.scrollAbout}/> 
+      <Header
+        scrollProjects={props.scrollProjects} 
+        scrollHome={props.scrollHome} 
+        scrollAbout={props.scrollAbout}/> 
       <Presentation/>
       <Contact 
         contactIsOpen={contactIsOpen} 

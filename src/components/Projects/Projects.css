@@ -31,10 +31,10 @@
   
   .active2 {
     position: relative;
-    left: 192px;
-    top: 26px;
-    width: 95px;
-    height: 200px;
+    left: 183px;
+    top: 10px;
+    width: 91px;
+    height: 194px;
     border-radius: 12px;
   }
   
@@ -48,15 +48,15 @@
   }
   
   .cell {
-    width: 260px;
-    right: 145px;
+    width: 250px;
+    right: 130px;
   }
   
   .container-cell {
     z-index: 1;
     position: absolute;
-    top: 115px;
-    right: -35px;
+    top: 100px;
+    right: -4px;
     bottom: 0;
   }
   
@@ -84,11 +84,11 @@
   
   .active {
     position: relative;
-    left: 3px;
+    left: 2px;
     top: -12px;
     opacity: 1;
-    width: 490px;
-    height: 305px;
+    width: 498px;
+    height: 310px;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1s;
@@ -99,11 +99,11 @@
   
   .active2 {
     position: relative;
-    left: 255px;
-    top: -7px;
+    left: 263px;
+    top: -9px;
     width: 130px;
     height: 270px;
-    border-radius: 25px;
+    border-radius: 20px;
   }
   
   .container-displays {
@@ -155,8 +155,8 @@
   left: 3px;
   top: -12px;
   opacity: 1;
-  width: 490px;
-  height: 305px;
+  width: 505px;
+  height: 314px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1s;
@@ -167,11 +167,11 @@
 
 .active2 {
   position: relative;
-  left: 255px;
-  top: -7px;
+  left: 270px;
+  top: -13px;
   width: 130px;
   height: 270px;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .container-displays {
@@ -180,11 +180,11 @@
 }
 
 .notebook {
-  width: 100%;
+  width: 80%;
 }
 
 .cell {
-  width: 350px;
+  width: 210px;
   right: 175px;
 }
 

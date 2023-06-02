@@ -3,9 +3,8 @@ import imageOne from '../../assets/images/to-do-list-project.png'
 import imageTwo from '../../assets/images/matching-game-project.png'
 import imageThree from '../../assets/images/mario-game-project.png'
 import imageFour from '../../assets/images/svg/coming.jpg'
-import cell from '../../assets/images/cell.png'
-import tablet from '../../assets/images/tablet.png'
-import notebook from '../../assets/images/notebook.png'
+import cell from '../../assets/images/cell2.png'
+import notebook from '../../assets/images/mabook.png'
 
 function Projects(props) {
   const imageProjects = [ 
