@@ -16,11 +16,11 @@
   
   .active {
     position: relative;
-    left: 2px;
-    top: -9px;
+    left: 0px;
+    top: 0px;
     opacity: 1;
-    width: 355px;
-    height: 221px;
+    width: 425px;
+    height: 266px;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1s;
@@ -31,10 +31,10 @@
   
   .active2 {
     position: relative;
-    left: 183px;
-    top: 10px;
-    width: 91px;
-    height: 194px;
+    left: 230px;
+    top: 30px;
+    width: 100px;
+    height: 214px;
     border-radius: 12px;
   }
   
@@ -48,15 +48,14 @@
   }
   
   .cell {
-    width: 250px;
-    right: 130px;
+    width: 150px;
   }
   
   .container-cell {
     z-index: 1;
     position: absolute;
-    top: 100px;
-    right: -4px;
+    top: 80px;
+    right: 0px;
     bottom: 0;
   }
   
@@ -84,11 +83,11 @@
   
   .active {
     position: relative;
-    left: 2px;
-    top: -12px;
+    left: 0px;
+    top: 0px;
     opacity: 1;
-    width: 498px;
-    height: 310px;
+    width: 425px;
+    height: 266px;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1s;
@@ -99,11 +98,11 @@
   
   .active2 {
     position: relative;
-    left: 263px;
-    top: -9px;
-    width: 130px;
-    height: 270px;
-    border-radius: 20px;
+    left: 330px;
+    top: 55px;
+    width: 100px;
+    height: 214px;
+    border-radius: 12px;
   }
   
   .container-displays {
@@ -112,19 +111,18 @@
   }
   
   .notebook {
-    width: 100%;
+    width: 575px;
   }
   
   .cell {
-    width: 350px;
-    right: 175px;
+    width: 150px;
   }
   
   .container-cell {
     z-index: 1;
     position: absolute;
-    top: 115px;
-    right: -35px;
+    top: 100px;
+    right: -4px;
     bottom: 0;
   }
   
@@ -152,11 +150,11 @@
 
 .active {
   position: relative;
-  left: 3px;
-  top: -12px;
+  left: 1px;
+  top: 0px;
   opacity: 1;
-  width: 505px;
-  height: 314px;
+  width: 598px;
+  height: 374px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1s;
@@ -167,10 +165,10 @@
 
 .active2 {
   position: relative;
-  left: 270px;
-  top: -13px;
-  width: 130px;
-  height: 270px;
+  left: 435px;
+  top: 45px;
+  width: 140px;
+  height: 300px;
   border-radius: 20px;
 }
 

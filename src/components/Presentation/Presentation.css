@@ -1,18 +1,4 @@
 @media only screen and (max-width: 600px) {
-  .align-verticals {
-    display: flex;
-    height: 100%;
-    align-items: flex-start;
-  }
-  .wrap-img {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    top: 35%;
-    transform: translateY(-50%); 
-  }
   .container-presentation {
     display: flex;
     position: relative;
@@ -57,21 +43,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .align-verticals {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-  }
-
-  .wrap-img {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    top: 35%;
-    transform: translateY(-50%); 
-  }
   .container-presentation {
     display: flex;
     justify-content: space-between;
@@ -114,22 +85,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .align-verticals {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-  }
-
-  .wrap-img {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    top: 30%;
-    transform: translateY(-50%); 
-  }
-
   .container-presentation {
     display: flex;
     justify-content: space-between;
@@ -172,22 +127,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .align-verticals {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-  }
-
-  .wrap-img {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    top: 30%;
-    transform: translateY(-50%); 
-  }
-
   .container-presentation {
     display: flex;
     width: 100%;
@@ -231,17 +170,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .align-verticals {
-    display: flex;
-    justify-content: flex-end;
-    height: 600px;
-  }
-
-  .wrap-img {
-    width: 430px;
-    position: relative;
-  }
-
 .container-presentation {
   display: flex;
   width: auto;

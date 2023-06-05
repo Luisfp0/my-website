@@ -1,13 +1,13 @@
 @media only screen and (max-width: 600px) {
   .container-picture {
     display: flex;
-    width: 280px;
     align-items: center;
     justify-content: center;
+    width: 320px;
+    top: 130px;
+    position: relative;
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
-    position: absolute;
-    left: 0; right: 0; top: 25px;
     margin: auto;
   }
   
@@ -35,10 +35,14 @@
 
 @media only screen and (min-width: 600px) {
   .container-picture {
+    z-index: 2;
     display: flex;
-    width: 220px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: -330px;
+    top: 85px;
+    width: 220px;
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
     padding-left: 30px;
@@ -62,16 +66,20 @@
   
   .svg-js {
     position: absolute;
-    width: 35px;
+    width: 40px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .container-picture {
+    z-index: 2;
     display: flex;
-    width: 330px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: -350px;
+    top: 0;
+    width: 330px;
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
   }
@@ -101,9 +109,11 @@
 @media only screen and (min-width: 992px) {
   .container-picture {
     display: flex;
-    width: 400px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: -500px;
+    top: 0;
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
   }
@@ -126,14 +136,18 @@
   
   .svg-js {
     position: absolute;
-    width: 80px;
+    width: 70px;
   }
   }
 
 @media only screen and (min-width: 1200px) { 
 .container-picture {
-  position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: -600px;
+  top: 0;
   width: 400px;
   animation: flutuation 5s ease-in-out alternate infinite;
   filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));

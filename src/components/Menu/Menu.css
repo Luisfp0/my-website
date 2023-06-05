@@ -151,7 +151,6 @@
 
 @media only screen and (min-width: 1200px) { 
 .container-menu {
-  z-index: 1;
   display: flex;
   float: left;
   align-items: center;
