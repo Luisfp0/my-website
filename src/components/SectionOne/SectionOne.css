@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   .section-one {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 10px);
     position: relative;
   }
 }

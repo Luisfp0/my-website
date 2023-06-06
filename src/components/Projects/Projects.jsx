@@ -47,23 +47,19 @@ function Projects(props) {
     <div className='slider-container'>
       <div className='container-displays'>
         <img className='notebook' src={notebook}/>
-        <div className={styleCell}>
-          <img className='cell' src={cell}/>
-        </div>
       </div>
       {imageProjects.map((project) => {
           if(project.id === props.currentProject) {
           return <>
-            <div className='container-first-project'>
-              <a href={project.link} target="_blank">
-                <img src={project.src} className='active'/>
-              </a>
-              <a>
-                <div className='container-second-project'>
-                  <img src={project.srcCell} className={styleImgCell}/>
-                </div>
-              </a>
-            </div>
+            <a href={project.link} target='_blank' className='container-first-project'>
+              <img src={project.src} className='active'/>
+              <div className='container-second-project'>
+              <div className={styleCell}>
+                <img className='cell' src={cell}/>
+              </div>
+                <img src={project.srcCell} className={styleImgCell}/>
+              </div>
+            </a>
           <div className='container-info'>
             <div className='infos'>
               <h1 className='tittle-project'>{project.title}</h1>

@@ -193,7 +193,11 @@
 }
 }
 
-@media only screen and (min-width: 1200px) { 
+@media only screen and (min-width: 1200px) {
+.teste {
+  cursor: pointer;
+  z-index: 10;
+}
 .slider-container {
   display: flex;
   width: 100%;
@@ -241,10 +245,9 @@
 }
 
 .container-cell {
-  z-index: 1;
   position: absolute;
-  top: 70px;
-  right: -45px;
+  top: 0px;
+  right: -250px;
   bottom: 0;
 }
 
