@@ -1,8 +1,13 @@
 @media only screen and (max-width: 600px) {
+  .none {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-
+  .none {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -69,6 +74,10 @@
     bottom: 0;
     right: 0;
     left: 0;
+  }
+
+  .none {
+    display: none;
   }
 }
 
@@ -137,6 +146,9 @@
     right: 0;
     left: 0;
   }
+  .none {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) { 
@@ -165,10 +177,10 @@
 
 .active2 {
   position: relative;
-  left: 435px;
-  top: 45px;
-  width: 140px;
-  height: 300px;
+  left: 427px;
+  top: 2px;
+  width: 170px;
+  height: 355px;
   border-radius: 20px;
 }
 
@@ -182,15 +194,15 @@
 }
 
 .cell {
-  width: 210px;
+  width: 250px;
   right: 175px;
 }
 
 .container-cell {
   z-index: 1;
   position: absolute;
-  top: 115px;
-  right: -35px;
+  top: 70px;
+  right: -45px;
   bottom: 0;
 }
 
@@ -204,6 +216,10 @@
   bottom: 0;
   right: 0;
   left: 0;
+}
+
+.none {
+  display: none;
 }
 }
 
