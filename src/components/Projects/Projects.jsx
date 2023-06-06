@@ -53,12 +53,24 @@ function Projects(props) {
       </div>
       {imageProjects.map((project) => {
           if(project.id === props.currentProject) {
-          return <div className='container-first-project'>
-              <img src={project.src} className='active'/>
-              <div className='container-second-project'>
-                <img src={project.srcCell} className={styleImgCell}/>
-              </div>
+          return <>
+            <div className='container-first-project'>
+              <a href={project.link} target="_blank">
+                <img src={project.src} className='active'/>
+              </a>
+              <a>
+                <div className='container-second-project'>
+                  <img src={project.srcCell} className={styleImgCell}/>
+                </div>
+              </a>
+            </div>
+          <div className='container-info'>
+            <div className='infos'>
+              <h1 className='tittle-project'>{project.title}</h1>
+              <p className='description'>{project.info}</p>
+            </div>
           </div>
+          </>
           }
         })}
     </div>

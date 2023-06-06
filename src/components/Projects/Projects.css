@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
   .none {
-    display: none;
-  }
+  display: none;
+}
 }
 
 @media only screen and (min-width: 600px) {
@@ -79,6 +79,27 @@
   .none {
     display: none;
   }
+
+  
+.container-info {
+  position: absolute;
+}
+
+.infos {
+  position: relative;
+  top: 220px;
+}
+
+.tittle-project {
+  font-size: 20px;
+  color: #2ccb69;
+}
+
+.description {
+  width: 450px;
+  font-size: 15px;
+  color:#ffffff;
+}
 }
 
 @media only screen and (min-width: 992px) {
@@ -149,6 +170,27 @@
   .none {
     display: none;
   }
+
+  
+.container-info {
+  position: absolute;
+}
+
+.infos {
+  position: relative;
+  top: 210px;
+}
+
+.tittle-project {
+  font-size: 20px;
+  color: #2ccb69;
+}
+
+.description {
+  width: 550px;
+  font-size: 15px;
+  color:#ffffff;
+}
 }
 
 @media only screen and (min-width: 1200px) { 
@@ -165,8 +207,8 @@
   left: 1px;
   top: 0px;
   opacity: 1;
-  width: 598px;
-  height: 374px;
+  width: 599px;
+  height: 375px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1s;
@@ -220,6 +262,26 @@
 
 .none {
   display: none;
+}
+
+.container-info {
+  position: absolute;
+}
+
+.infos {
+  position: relative;
+  top: 270px;
+}
+
+.tittle-project {
+  font-size: 20px;
+  color: #2ccb69;
+}
+
+.description {
+  width: 750px;
+  font-size: 15px;
+  color:#ffffff;
 }
 }
 

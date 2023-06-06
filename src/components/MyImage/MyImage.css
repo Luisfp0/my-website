@@ -4,11 +4,12 @@
     align-items: center;
     justify-content: center;
     width: 320px;
-    top: 130px;
+    top: 185px;
     position: relative;
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
     margin: auto;
+    z-index: 2;
   }
   
   .box-shadow {
@@ -29,7 +30,7 @@
   
   .svg-js {
     position: absolute;
-    width: 55px;
+    width: 65px;
   }
 }
 
@@ -40,7 +41,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    right: -330px;
+    right: -285px;
     top: 85px;
     width: 220px;
     animation: flutuation 5s ease-in-out alternate infinite;

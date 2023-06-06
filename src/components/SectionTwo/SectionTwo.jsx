@@ -1,4 +1,6 @@
 import './SectionTwo.css'
+import vsTheme from '../../assets/images/svg/dracula.svg'
+import teste from '../../assets/images/svg/copia.png'
 
 function SectionTwo(props) {
   const arrayMe = [{
@@ -25,28 +27,7 @@ function SectionTwo(props) {
     <section ref={props.scrollAbout} className="section-two">
       <div className='wrap-about'>
         <div className='container-object'>
-          <div className='grade-container'>
-            <span className='grade'>1</span>
-            <span className='grade'>2</span>
-            <span className='grade'>3</span>
-            <span className='grade'>4</span>
-            <span className='grade'>5</span>
-            <span className='grade'>6</span>
-            <span className='grade'>7</span>
-            <span className='grade'>8</span>
-          </div>
-          {arrayMe.map((info) =>{return <div>
-            <div> 
-              <span className='span-object pink'>{info.humanFirst} <span className='human'>{info.humanSecond}</span><span> =</span><span className='purple'> {info.humanThird}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.nameFirst}<span className='pink'> : </span><span className='yellow'>{info.nameSecond}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.ageFirst}<span className='pink'> : </span><span className='yellow'>{info.ageSecond}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.heightFirst}<span className='pink'> : </span><span className='yellow'>{info.heightSecond}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.coderFirst}<span className='pink'> : </span><span className='yellow'>{info.coderSecond}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.subclassFirst}<span className='pink'> : </span><span className='yellow'>{info.subclassSecond}</span></span>
-              <span className='span-object'>&nbsp;&nbsp;{info.skillsFirst}<span className='pink'> :  </span><span className='yellow'>{info.skillsSecond}&nbsp;</span></span>
-              <span className='span-object purple'>{info.fechamentoFirst}<span className='white'>{info.fechamentoSecond}</span></span>
-            </div>
-          </div>})}
+        <img src={teste} className='object-image'></img>
         </div>
         <div className='container-about'>
           <h1>About me</h1>
