@@ -194,3 +194,6 @@
   transform: scale(1, 1);        
 }
 }
+.container-menu a {
+  font-family: 'General Sans', sans-serif;
+}

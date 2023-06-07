@@ -27,7 +27,7 @@ function SectionTwo(props) {
     <section ref={props.scrollAbout} className="section-two">
       <div className='wrap-about'>
         <div className='container-object'>
-        <img src={teste} className='object-image'></img>
+          <img src={teste} className='object-image'></img>
         </div>
         <div className='container-about'>
           <h1>About me</h1>

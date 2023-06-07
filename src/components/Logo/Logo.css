@@ -74,8 +74,6 @@
 @media only screen and (min-width: 1200px) { 
 .container-logo {
   height: 70px;
-  font-family: 'Switzer', sans-serif;
-
 }
 
 .logo {
@@ -86,4 +84,7 @@
 .text-green {
   color: #2ccb69;
 }
+}
+.container-logo {
+  font-family: 'General Sans', sans-serif;
 }
