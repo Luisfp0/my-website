@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     width: 320px;
-    top: 185px;
     position: relative;
+    top: 40%;
+    transform: translateY(-50%); 
     animation: flutuation 5s ease-in-out alternate infinite;
     filter: drop-shadow(50px 15px 7px rgb(0 0 0 / 0.6));
     margin: auto;
