@@ -17,12 +17,13 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
   }
   
   .active {
     position: relative;
     left: 0px;
-    top: 0px;
+    top: -25px;
     opacity: 1;
     width: 425px;
     height: 266px;
@@ -36,8 +37,8 @@
   
   .active2 {
     position: relative;
-    left: 230px;
-    top: 30px;
+    left: 220px;
+    top: 0px;
     width: 100px;
     height: 214px;
     border-radius: 12px;
@@ -59,8 +60,8 @@
   .container-cell {
     z-index: 1;
     position: absolute;
-    top: 80px;
-    right: 0px;
+    top: 0px;
+    right: -80px;
     bottom: 0;
   }
   
@@ -80,14 +81,8 @@
     display: none;
   }
 
-  
-.container-info {
-  position: absolute;
-}
-
 .infos {
-  position: relative;
-  top: 220px;
+  height: 50px;
 }
 
 .tittle-project {
@@ -109,12 +104,13 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
   }
   
   .active {
     position: relative;
     left: 0px;
-    top: 0px;
+    top: -25px;
     opacity: 1;
     width: 425px;
     height: 266px;
@@ -129,7 +125,7 @@
   .active2 {
     position: relative;
     left: 330px;
-    top: 55px;
+    top: 0px;
     width: 100px;
     height: 214px;
     border-radius: 12px;
@@ -151,8 +147,8 @@
   .container-cell {
     z-index: 1;
     position: absolute;
-    top: 100px;
-    right: -4px;
+    top: 0px;
+    right: -190px;
     bottom: 0;
   }
   
@@ -171,14 +167,8 @@
     display: none;
   }
 
-  
-.container-info {
-  position: absolute;
-}
-
 .infos {
-  position: relative;
-  top: 210px;
+  height: 50px;
 }
 
 .tittle-project {
@@ -196,7 +186,6 @@
 @media only screen and (min-width: 1200px) {
 .teste {
   cursor: pointer;
-  z-index: 10;
 }
 .slider-container {
   display: flex;
@@ -204,15 +193,16 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .active {
   position: relative;
   left: 1px;
-  top: 0px;
+  top: -25px;
   opacity: 1;
   width: 599px;
-  height: 375px;
+  height: 374px;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 1s;
@@ -267,13 +257,8 @@
   display: none;
 }
 
-.container-info {
-  position: absolute;
-}
-
 .infos {
-  position: relative;
-  top: 270px;
+  height: 50px;
 }
 
 .tittle-project {

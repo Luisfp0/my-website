@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
   .container-logo {
     display: flex;
-    height: 95px;
+    height: 70px;
     align-items: center;
     padding-left: 15px;
   }
@@ -20,7 +20,7 @@
 @media only screen and (min-width: 600px) {
   .container-logo {
     display: flex;
-    height: 95px;
+    height: 70px;
     align-items: center;
   }
   
@@ -38,7 +38,7 @@
 @media only screen and (min-width: 768px) {
   .container-logo {
     display: flex;
-    height: 95px;
+    height: 70px;
     align-items: center;
   }
   
@@ -56,7 +56,7 @@
 @media only screen and (min-width: 992px) {
   .container-logo {
     display: flex;
-    height: 95px;
+    height: 70px;
     align-items: center;
   }
   
@@ -73,7 +73,7 @@
 
 @media only screen and (min-width: 1200px) { 
 .container-logo {
-  height: 95px;
+  height: 70px;
   font-family: 'Switzer', sans-serif;
 
 }

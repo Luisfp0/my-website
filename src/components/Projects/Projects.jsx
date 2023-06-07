@@ -25,7 +25,7 @@ function Projects(props) {
     {id: 1,
     src: imageOne,
     srcCell: imageOneCell,
-    info:'A to-do list made using react, where you can add, complete and remove tasks. Having integration with local storage, so whenever you come back the tasks are saved.',
+    info:'A to-do list made using react, where you can add, complete and remove tasks. Having integration with local storage, saving the tasks.',
     title: 'To-do List',
     link: 'https://to-do-list-mu-pied.vercel.app'},
     {id: 2,
@@ -60,12 +60,10 @@ function Projects(props) {
                 <img src={project.srcCell} className={styleImgCell}/>
               </div>
             </a>
-          <div className='container-info'>
             <div className='infos'>
               <h1 className='tittle-project'>{project.title}</h1>
               <p className='description'>{project.info}</p>
             </div>
-          </div>
           </>
           }
         })}
