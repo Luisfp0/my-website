@@ -163,7 +163,7 @@
 
 @media only screen and (min-width: 1200px) {
   .section-two {
-    height: calc(85vh - 10px);
+    height: calc(95vh - 10px);
     display: flex;
   }
   

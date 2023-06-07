@@ -450,9 +450,11 @@
     font-size: 20px;
     padding-top: 8px;
     padding-left: 10px;
+    font-family: 'Switzer', sans-serif;
   }
 
   .container-contact-info p {
+    font-family: 'Plein', sans-serif;
     font-size: 13px;
     line-height: 24px;
     padding-left: 10px;

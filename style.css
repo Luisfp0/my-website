@@ -1,3 +1,4 @@
+
 body::-webkit-scrollbar {
   width: 2px;               /* width of the entire scrollbar */
 }
@@ -12,5 +13,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Switzer', sans-serif;
+  font-family: 'Plein', sans-serif;
 }

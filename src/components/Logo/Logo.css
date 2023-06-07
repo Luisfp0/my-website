@@ -74,6 +74,8 @@
 @media only screen and (min-width: 1200px) { 
 .container-logo {
   height: 95px;
+  font-family: 'Switzer', sans-serif;
+
 }
 
 .logo {
