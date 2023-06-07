@@ -213,10 +213,10 @@
 
 .active2 {
   position: relative;
-  left: 427px;
+  left: 440px;
   top: 2px;
-  width: 170px;
-  height: 355px;
+  width: 155px;
+  height: 326px;
   border-radius: 20px;
 }
 
@@ -230,7 +230,7 @@
 }
 
 .cell {
-  width: 250px;
+  width: 225px;
   right: 175px;
 }
 
