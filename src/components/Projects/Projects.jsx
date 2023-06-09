@@ -9,7 +9,6 @@ import cell from '../../assets/images/cell2.png'
 import notebook from '../../assets/images/mabook.png'
 
 function Projects(props) {
-  console.log(props.currentProject)
   let styleCell = 'container-cell'
   let styleImgCell = 'active2'
   if (props.currentProject === 1) {

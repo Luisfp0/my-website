@@ -38,33 +38,36 @@
 
 @media only screen and (min-width: 600px) {
   .section-two {
-    height: calc(70vh - 10px);
+    height: calc(100vh - 10px);
     display: flex;
   }
   
   .wrap-about {
     display: flex;
     align-items: center;
-    width: 589px;
-    height: auto;
-    justify-content: space-between;
     justify-content: center;
+    width: 600px;
+    height: auto;
+    flex-direction: column;
   }
   
   .container-object {
-    display: none;
-    width: 115px;
+    display: flex;
+    width: 415px;
     height: 255px;
     align-items: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
   }
 
   .container-about {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 550px;
     color: rgb(255, 255, 255);
     font-size: 19px;
-    text-align: center;
+    padding-left: 25px;
   }
 
   .object-image {
@@ -75,7 +78,6 @@
   .container-about h1 {
     font-size: 30px;
     color: #2ccb69;
-    text-align: center;
   }
 }
 
@@ -91,6 +93,7 @@
     width: 100%;
     height: auto;
     justify-content: space-between;
+    flex-direction: row;
   }
   
   .container-object {
