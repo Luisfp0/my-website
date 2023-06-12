@@ -1,28 +1,7 @@
 import './SectionTwo.css'
-import vsTheme from '../../assets/images/svg/dracula.svg'
 import teste from '../../assets/images/svg/copia.png'
 
 function SectionTwo(props) {
-  const arrayMe = [{
-    humanFirst: `const`,
-    humanSecond: `human`,
-    humanThird: `{`,
-    doisPontos: `:`,
-    nameFirst: `name `,
-    nameSecond:`'Luís Fernando',`,
-    ageFirst:`age`,
-    ageSecond: `21,`,
-    heightFirst: `height`,
-    heightSecond: `188,`,
-    coderFirst: `class`,
-    coderSecond: `'coder',`,
-    subclassFirst: `subclass`,
-    subclassSecond: `'jedi',`,
-    skillsFirst: `skills`,
-    skillsSecond: `'html, css, js, react'`,
-    fechamentoFirst: `}`,
-    fechamentoSecond: `;`
-  }]
   return (
     <section ref={props.scrollAbout} className="section-two">
       <div className='wrap-about'>
